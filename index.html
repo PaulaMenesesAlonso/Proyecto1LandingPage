@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Libros, Lector, Autores, Escritores, Ofertas, Firmas de libros"
+    />
+    <meta
+      name="description"
+      content="Descubre los mejores libros en El Hogar de los Lectores. Encuentra novedades, libros firmados y productos exclusivos."
+    />
+    <meta name="author" content="Paula" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="./img/LogoLibro.jpg" type="image/x-icon" />
+    <title>El Hogar de los Lectores - Libros, Firmas y Más</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="logo-container">
+        <img class="logo" src="./img/LogoLibro.jpg" alt="LogoLibro" />
+        <h1>El hogar de los lectores</h1>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="#">Tienda</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+          <img
+            class="icono-container"
+            src="./img/IconoCarrito2.jpeg"
+            alt="Añadir al carrito"
+          />
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        id="carousel"
+        aria-label="Destacados de la semana"
+        aria-live="polite"
+      >
+        <h2>Destacados de la semana</h2>
+        <input type="radio" id="slide1" name="carousel" checked />
+        <input type="radio" id="slide2" name="carousel" />
+        <input type="radio" id="slide3" name="carousel" />
+
+        <div class="carousel-slides">
+          <div class="carousel-slide" id="item1" aria-hidden="false">
+            <a
+              href="https://www.casadellibro.com/libro-el-aliento-de-las-llamas/9788491298021/16144106"
+              target="_blank"
+            >
+              <img src="./img/Carousel3.jpeg" alt="Novedades en libros" />
+              <div class="carousel-caption">Novedades en libros</div>
+            </a>
+          </div>
+          <div class="carousel-slide" id="item2" aria-hidden="true">
+            <a
+              href="https://www.casadellibro.com/libro-el-miedo-ejemplar-firmado-por-la-autora/2910027160886/16342533"
+              target="_blank"
+            >
+              <img src="./img/carousel2.jpg" alt="Libros firmados" />
+              <div class="carousel-caption">Libros firmados</div>
+            </a>
+          </div>
+          <div class="carousel-slide" id="item3" aria-hidden="true">
+            <a
+              href="https://www.casadellibro.com/libro-trono-de-cristal/9788410163706/16316187"
+              target="_blank"
+            >
+              <img src="./img/Carousel1.jpg" alt="Ofertas exclusivas" />
+              <div class="carousel-caption">Ofertas exclusivas</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="carousel-controls">
+          <label for="slide3" class="prev">&#10094;</label>
+          <label for="slide1" class="next">&#10095;</label>
+          <label for="slide2" class="next">&#10095;</label>
+        </div>
+      </section>
+      <section id="Actividades">
+        <article>
+          <img src="./img/Libreria4.jpg" alt="Recogida-en-tienda" />
+          <h3>Recoge tu pedido en tienda</h3>
+          <a
+            href="https://www.casadellibro.com/recogida-en-tienda"
+            class="bottom-redirection"
+            >Ver más</a
+          >
+        </article>
+        <article>
+          <img src="./img/ManoLibro2.jpeg" alt="Libro-firmado" />
+          <h3>Consigue el libro firmado por tu autor favorito</h3>
+          <a
+            href="https://www.casadellibro.com/libros-firmados"
+            class="bottom-redirection"
+            >Ver más</a
+          >
+        </article>
+        <article>
+          <img src="./img/HazteSocio2.jpg" alt="Hazte-Socio" />
+          <h3>Hazte socio de manera rápida y gratuita</h3>
+          <a
+            href="https://www.casadellibro.com/altasocio"
+            class="bottom-redirection"
+            >Hacerme socio</a
+          >
+        </article>
+      </section>
+      <div class="bestseller-text">
+        <h2>Lo más vendido</h2>
+      </div>
+      <section id="best-seller">
+        <article>
+          <img src="./img/ElJardin2.jpg" alt="El-Jardin-Olvidado" />
+          <h4>
+            <a
+              href="https://www.casadellibro.com/libro-el-jardin-olvidado/9788483658314/2624413"
+              target="_blank"
+              >El Jardín Olvidado</a
+            >
+          </h4>
+          <p>21,75€</p>
+        </article>
+        <article>
+          <img
+            src="./img/ElClanDelOso2.jpeg"
+            alt="El-Clan-Del-Oso-Cavernario"
+          />
+          <h4>
+            <a
+              href="https://www.casadellibro.com/libro-el-clan-del-oso-cavernario-los-hijos-de-la-tierra-1/9788415140207/1828668?awc=21491_1726786138_a6913be2561ebecb1ebaffc1c0760718&utm_source=awin&utm_campaign=624709&utm_medium=afiliados&utm_content=Twenga+CSS"
+              target="_blank"
+              >El Clan del Oso Cavernario</a
+            >
+          </h4>
+          <p>10,45€</p>
+        </article>
+        <article>
+          <img src="./img/LaCaraNorte2.jpg" alt="La-Cara-Norte-Del-Corazon" />
+          <h4>
+            <a
+              href="https://www.casadellibro.com/libro-la-cara-norte-del-corazon/9788423356355/9848458?gad_source=1&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZbflWlH0Oj6K93MpN47gmby_IVjj9xVt5w2IjgR-PDaqO8HAwuNDDhoC9WYQAvD_BwE"
+              target="_blank"
+              >La Cara Norte Del Corazón</a
+            >
+          </h4>
+          <p>22,70€</p>
+        </article>
+        <article>
+          <img src="./img/ElOcho2.jpg" alt="El-Ocho" />
+          <h4>
+            <a
+              href="https://www.casadellibro.com/libro-el-ocho/9788483465202/1162266?gad_source=1&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZUM_HqMmYwL0F9vx_HN6XVovRmR3v8kJB0S7tIkB4heylbqbmz8DJBoCviIQAvD_BwE"
+              target="_blank"
+              >El Ocho</a
+            >
+          </h4>
+          <p>12,30€</p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <nav class="nav-column">
+        <ul class="contacto">
+          <span>Contacta con nosotros</span>
+          <li id="Ubicación">C. Pelota, 16, 11005 Cádiz</li>
+          <li id="Teléfono">956282805</li>
+          <li id="Correo">Elhogardeloslectores@gmail.com</li>
+        </ul>
+        <ul class="Redes">
+          <span>Síguenos</span>
+          <li>
+            <a href="#">
+              <img src="./img/TikTokLogo.jpg" alt="TikTok" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/InstaLogo.jpg" alt="Instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/XLogo.jpg" alt="XTwitter" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
